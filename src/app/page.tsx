@@ -43,7 +43,7 @@ export default function Home() {
               <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold">
                 <Link href="/menu">Ver Nuestro Menú</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-red-600">
+              <Button asChild variant="outline" size="lg" className="border-white bg-white text-red-600 hover:bg-red-50">
                 <Link href="/contacto">Hacer Reservación</Link>
               </Button>
             </div>
